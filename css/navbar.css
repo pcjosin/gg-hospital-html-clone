@@ -1,0 +1,377 @@
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 30px;
+
+}
+
+.logoimage {
+    padding-left: 40px;
+}
+
+.navbar {
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.navbar .space {
+    width: 20px;
+    height: 10px;
+}
+
+.navbar a {
+    padding-top: 10px;
+    color: black;
+    font-weight: 500;
+    margin-left: 20px;
+    font-size: large;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.active a {
+    color: red;
+}
+
+.header-select-dep {
+    border: 0;
+    color: black;
+    padding-top: 10px;
+    color: black;
+    font-weight: 500;
+    margin-left: 20px;
+    font-size: large;
+    text-decoration: none;
+
+
+}
+
+.header-select-dep:hover {
+    color: red;
+}
+
+
+a:hover {
+    color: red;
+}
+
+.main-image {
+    position: relative;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#main-image {
+    width: 100%;
+}
+
+.textonimage {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+
+}
+
+.formContainer {
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    padding: 30px;
+    width: 75%;
+    box-shadow: 0px 2px 2px #9c9c9c;
+
+}
+
+.formrow {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.formcell {
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+}
+
+.inputtext {
+    border-color: #777777;
+    size: 30;
+    border-radius: 5px;
+    height: 60px;
+    width: 300px;
+    padding: 10px;
+    border-color: #777777;
+
+
+}
+
+#submitButton {
+    color: white;
+    background-color: #17C1A3;
+    width: 300px;
+    height: 65px;
+    border-width: 0px;
+    border-radius: 5px;
+
+}
+
+.heading {
+    font-size: xxx-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+
+.subheading {
+    font-size: medium;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+
+.form-heading {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.float-appointment {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+
+
+}
+
+#submitButtonfloat {
+    color: white;
+    background-color: #17C1A3;
+    width: 170px;
+    height: 45px;
+    border-width: 0px;
+    border-radius: 10px;
+
+}
+
+.plogo {
+    margin-left: 20px;
+}
+
+.doctors-talk {
+    text-decoration: underline;
+}
+
+/* top contact */
+
+.contact {
+    display: flex;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.social-links {
+    flex: 1;
+    padding-left: 20px;
+
+}
+
+.slogo {
+    margin-left: 10px;
+
+}
+
+.direct-contact {
+    margin-right: 10px;
+}
+
+.bi-envelope {
+    padding-left: 20px;
+}
+
+/* body commons */
+body {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* our departments */
+.inter-headings {
+    font-size: xx-large;
+    margin-top: 180px;
+    margin-left: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+
+.department-img {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.read-more {
+    color: #17C1A3;
+    ;
+    text-decoration: underline;
+}
+
+/* why gg */
+
+.why-gg {
+    margin-top: 100px;
+    background-color: #eaf2ff;
+    height: 75vh;
+    overflow: hidden;
+}
+
+.why-gg-imgbg {
+    z-index: -1;
+}
+
+.why-gg-img {
+    z-index: 1;
+
+}
+
+.why-gg-inner {
+    z-index: 1;
+}
+
+.inter-headings-why {
+    font-size: xx-large;
+    margin-top: 180px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.bi-check-circle {
+    color: #17C1A3;
+}
+
+
+/* Specialist */
+
+.specialist-container {
+    margin-top: 70px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 70px;
+}
+
+.speacilist-head {
+    width: 100%;
+}
+
+.inter-heading-specialist {
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.specialty-dp {
+    color: #454545;
+}
+
+#viewAllButton {
+    color: white;
+    background-color: #17C1A3;
+    width: 129px;
+    height: 55px;
+    border-width: 0px;
+    border-radius: 6px;
+
+}
+
+/* facilities section */
+
+.inter-heading-facility {
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.facility-container {
+    margin-top: 70px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 70px;
+}
+
+/* interest section */
+.interest-container {
+    margin-top: 70px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 70px;
+}
+
+.inter-heading-interest {
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.interest-bg{
+    height:100vh;
+    width:100vw;
+    background-color:#EAF2FF;
+    z-index: -1;
+    position: absolute;
+    top:495%;
+
+}
+
+/* subscribe */
+
+.subscribe-container {
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 70px;
+    background-color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.subscribe-head {
+    font-size: xx-large;
+    font-weight: 700;
+    padding-left: 60px;
+
+}
+
+#subscribe {
+    color: white;
+    background-color: #17C1A3;
+    width: 129px;
+    height: 55px;
+    border-width: 0px;
+    border-radius: 6px;
+
+}
+.mail-textbox{
+    size:30px;
+            height: 60px;
+            width: 300px;
+            padding: 10px;
+            border:0;
+
+}
+
+.mailin{
+    padding-top: 70px;
+    padding-right: 250px;
+}
+.horiz-rule-email{
+width: 540px !important;
+}
+
+.footer{
+    margin-top: 180px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+
